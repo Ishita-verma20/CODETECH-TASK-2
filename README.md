@@ -7,7 +7,6 @@
 
 **OVERVIEW OF THE PROJECT**
 **PROJET: STOCK MARKET PREDICTION AND ANLYSIS**
-### Summary of Stock Analysis and Prediction Project Using LSTM
 
 #### Objective:
 The objective of this project is to develop a Long Short-Term Memory (LSTM) model to predict future stock prices and analyze historical stock data. By leveraging the capabilities of LSTM networks, which are well-suited for time series forecasting, the project aims to provide accurate stock price predictions and actionable insights for investment decisions.
@@ -51,7 +50,24 @@ The objective of this project is to develop a Long Short-Term Memory (LSTM) mode
 #### Conclusion:
 By leveraging LSTM networks for stock price prediction, this project aims to deliver accurate forecasts and valuable insights, aiding investors in making informed decisions. The use of historical data, combined with advanced time series modeling techniques, enhances the reliability of predictions and provides a strong foundation for financial analysis and strategy development.
 
-**ENVIROMENT AND TOOLS USED**
-LANGUAGE: Python
-LIBRARIES: Math, Pandas data reader, sci-kit, tensorflow, matplotlib.pyplot, numpy, keras.models, keras.layers
+**ENVIROMENT AND TOOLS USED**<br>
+LANGUAGE: Python<br>
+LIBRARIES: Math, Pandas data reader, sci-kit, tensorflow, matplotlib.pyplot, numpy, keras.models, keras.layers<br>
+
+### LSTM (Long Short-Term Memory)
+
+**LSTM** is a type of recurrent neural network (RNN) designed to model sequences and time series data. It is particularly effective at capturing long-term dependencies and patterns in data.
+
+#### Key Features:
+- **Memory Cells:** LSTMs have memory cells that can store information for long periods, enabling them to remember important information from earlier in the sequence.
+- **Gates:** LSTMs use gates (input, forget, and output gates) to control the flow of information, deciding what to keep, forget, or output.
+  - **Input Gate:** Determines what new information to store in the cell.
+  - **Forget Gate:** Decides what information to discard from the cell.
+  - **Output Gate:** Controls what information to output from the cell.
+
+#### Advantages:
+- **Long-Term Dependency Handling:** Effectively captures long-term dependencies in sequences.
+- **Avoids Shortcomings of Standard RNNs:** Mitigates issues like vanishing and exploding gradients.
+
+
 
