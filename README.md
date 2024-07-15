@@ -47,9 +47,6 @@ The objective of this project is to develop a Long Short-Term Memory (LSTM) mode
    - Prepare a comprehensive report documenting the methodology, analysis, and findings.
    - Create presentations to effectively communicate results and insights to stakeholders.
 
-#### Conclusion:
-By leveraging LSTM networks for stock price prediction, this project aims to deliver accurate forecasts and valuable insights, aiding investors in making informed decisions. The use of historical data, combined with advanced time series modeling techniques, enhances the reliability of predictions and provides a strong foundation for financial analysis and strategy development.
-
 **ENVIROMENT AND TOOLS USED**<br>
 LANGUAGE: Python<br>
 LIBRARIES: Math, Pandas data reader, sci-kit, tensorflow, matplotlib.pyplot, numpy, keras.models, keras.layers<br>
@@ -69,5 +66,6 @@ LIBRARIES: Math, Pandas data reader, sci-kit, tensorflow, matplotlib.pyplot, num
 - **Long-Term Dependency Handling:** Effectively captures long-term dependencies in sequences.
 - **Avoids Shortcomings of Standard RNNs:** Mitigates issues like vanishing and exploding gradients.
 
-
+#### Conclusion:
+By leveraging LSTM networks for stock price prediction, this project aims to deliver accurate forecasts and valuable insights, aiding investors in making informed decisions. The use of historical data, combined with advanced time series modeling techniques, enhances the reliability of predictions and provides a strong foundation for financial analysis and strategy development.
 
